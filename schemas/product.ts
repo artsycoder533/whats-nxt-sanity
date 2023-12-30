@@ -35,30 +35,30 @@ export default {
           },
         ],
       },
-      {
-        name: 'videos',
-        type: 'array',
-        title: 'Product Videos',
-        of: [
-          {
-            type: 'object',
-            title: 'Video',
-            fields: [
-              {
-                name: 'videoFile',
-                type: 'file',
-                title: 'Video File',
-              },
-              {
-                name: 'altText',
-                type: 'string',
-                title: 'Alt Text for Video',
-                description: 'Enter a descriptive alt text for the video.',
-              },
-            ],
-          },
-        ],
-      },
+      // {
+      //   name: 'videos',
+      //   type: 'array',
+      //   title: 'Product Videos',
+      //   of: [
+      //     {
+      //       type: 'object',
+      //       title: 'Video',
+      //       fields: [
+      //         {
+      //           name: 'videoFile',
+      //           type: 'file',
+      //           title: 'Video File',
+      //         },
+      //         {
+      //           name: 'altText',
+      //           type: 'string',
+      //           title: 'Alt Text for Video',
+      //           description: 'Enter a descriptive alt text for the video.',
+      //         },
+      //       ],
+      //     },
+      //   ],
+      // },
       {
         name: 'description',
         type: 'text',
