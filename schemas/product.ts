@@ -86,16 +86,6 @@ export default {
         },
       },
       {
-        name: 'category',
-        title: 'Product Category',
-        type: 'reference',
-        to: [
-          {
-            type: 'category',
-          },
-        ],
-      },
-      {
         name: 'stockQuantity',
         type: 'number',
         title: 'Stock Quantity on Hand',
