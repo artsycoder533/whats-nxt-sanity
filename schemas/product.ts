@@ -85,11 +85,11 @@ export default {
           format: '$0,0.00',
         },
       },
-      {
-        name: 'stockQuantity',
-        type: 'number',
-        title: 'Stock Quantity on Hand',
-      },
+      // {
+      //   name: 'stockQuantity',
+      //   type: 'number',
+      //   title: 'Stock Quantity on Hand',
+      // },
     ],
   };
 
