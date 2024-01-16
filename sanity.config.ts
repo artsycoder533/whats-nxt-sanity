@@ -5,9 +5,9 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'Paypal',
+  title: 'Whats Nxt',
 
-  projectId: '9lh62z8s',
+  projectId: '1ozmmyhd',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
